@@ -10,7 +10,7 @@
  *        $concat([1, 2, 3], 4);
  *
  */
-Ninja.module('$concat', ['$curry'], function ($curry) {
+this.Ninja.module('$concat', ['$curry'], function ($curry) {
   
   /**
    * Retorna um novo array concatenando o valor passado
